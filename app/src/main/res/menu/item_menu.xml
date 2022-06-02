@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/makananFragment"
+        android:title="Restoran"
+        android:icon="@drawable/ic_baseline_fastfood"/>
+
+    <item
+        android:id="@+id/minumanFragment"
+        android:title="Makanan"
+        android:icon="@drawable/ic_baseline_local_drink"/>
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_person"/>
+
+
+
+
+
+</menu>

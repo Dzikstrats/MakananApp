@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/makananFragment">
+
+    <fragment
+        android:id="@+id/makananFragment"
+        android:name="com.dzikry.makananapp.fragment.MakananFragment"
+        android:label="fragment_makanan_berat"
+        tools:layout="@layout/fragment_makanan" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.dzikry.makananapp.fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/minumanFragment"
+        android:name="com.dzikry.makananapp.fragment.MinumanFragment"
+        android:label="fragment_minuman"
+        tools:layout="@layout/fragment_minuman" />
+
+</navigation>
